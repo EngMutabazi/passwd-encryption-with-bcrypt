@@ -11,6 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use('/api',userRoutes);
 
 
+
+
 app.listen(3000,()=>console.log(`server is running at 3000 port`));
 
 
